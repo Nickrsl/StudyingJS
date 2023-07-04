@@ -154,4 +154,3 @@ mesagem = condicao ? "Aprovado" : "Reprovado"; // condição
 console.log(mesagem);
 
 // Ordem: aritméticos > relacionais > logicos
-
