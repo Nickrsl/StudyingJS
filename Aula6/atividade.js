@@ -49,10 +49,36 @@ Inverta uma string. Utilize o laço for.
 */
 let txt = " Alviner Viscarde é o amor da minha vida! ";
 let contadorA = 0;
-for (let i=0; i < txt.length; i++){
-
+for (let i=0; i < txt.length; i++) {
+    if(txt.charAt(i) == "A" || txt.charAt(i) == "a") {
+        contadorA++;
+    }
 }
+console.log(txt + " tem " + contadorA + " 'A's");
 
 if (txt.includes("am")){
-    
+
 }
+
+if(txt.includes("vi")) {
+    console.log("Contém 'ba'");
+}
+else {
+    console.log("Não contém 'ba'");
+}
+
+console.log(txt);
+console.log(txt.toUpperCase());
+console.log(txt.toLowerCase());
+
+console.log("De 0 a 18 tem-se '" + txt.substring(0, 18) + "'");
+
+console.log(txt.replaceAll("Alviner Viscarde", "Alvi sz"));
+
+console.log(txt.trim());
+
+let txtInvertido = "";
+for(let i = txt.length-1; i >= 0; i--) {
+    txtInvertido += txt.charAt(i);
+}
+console.log(txtInvertido);
