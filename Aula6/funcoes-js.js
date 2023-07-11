@@ -91,6 +91,6 @@ console.log(Math.round(4.9572));//arredonda para o mais próximo
 
 console.log(Math.sqrt(625));//raíz quadrada
 
-console.log(Math.abs(-7));//módulo
+console.log(Math.abs(-7));//módulo(valor absoluto)
 
-console.log(Math.floor(Math.random() * 100 +1));//número aleatório 
+console.log(Math.floor(Math.random() * (100 -1 + 1) + 1));//número aleatório 
